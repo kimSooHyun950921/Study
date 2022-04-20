@@ -25,3 +25,8 @@
     - ex) feature가 2개 일때 선형회귀: $$target = a*feature1 + b * feature2 + c$$
 2. 특성공학(feature engineering)
     - 기존 특성을 사용해 새로운 특성을 뽑아내는 작업
+3. 규제 (regularization)
+    - 훈련세트에 과대적합되지 않도록 만듦
+    - 릿지회귀: 계수를 제곱한 값을 기준으로 규제 적용
+    - 라쏘회귀: 계수의 절대값을 기준으로 규제 적용
+    
